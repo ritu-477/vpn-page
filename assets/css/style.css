@@ -71,6 +71,7 @@
     border-radius: 50px;
     padding: 13px 45px;
     background: var(--fc-white);
+    color: var(--fc-orange);
 }
 
 .button-signup {
@@ -173,7 +174,7 @@
 .box-1 {
     border-radius: 10px;
     color: var(#fefefe);
-    max-width: 1140px;
+    max-width: 1320px;
     min-height: 200px;
     flex-shrink: 0;
     top: 664.55px;
@@ -286,6 +287,10 @@
     margin-right: auto;
 }
 
+.card-box:hover {
+    border: 2px solid var(--fc-light-orange);
+}
+
 .heading-2 {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-xl);
@@ -324,7 +329,7 @@
     padding-bottom: 30px;
 }
 
-.text2 {
+.text-2 {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-xsm);
     font-weight: 400;
@@ -404,7 +409,7 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 44px;
     color: var(--fc-black);
 }
 
@@ -457,7 +462,6 @@
 
 .mapimg {
     max-width: 1060px;
-    min-height: 537.77px;
 
 }
 
@@ -589,6 +593,7 @@
     width: 45px !important;
     border-radius: 10px !important;
     background: var(--fc-orange);
+    z-index: 1;
 }
 
 .slick-dots {
@@ -597,7 +602,7 @@
 
 .slick-dots li button:before {
     font-size: 20px;
-    top: 70px;
+    top: 50px;
     margin-left: 14px;
 }
 
@@ -659,8 +664,8 @@
 
 .absolute-1 {
     position: absolute;
-    bottom: 0;
-    right: 11%;
+    bottom: -40%;
+    right: 7%;
 
 }
 
@@ -787,9 +792,20 @@
     color: var(--fc-light-gray);
 }
 
-.margin-l {
-    margin-left: -20px;
+.svg-circle {
+    text-align: center;
+    border-radius: 50px;
+    background: var(--fc-white);
+    height: 38px;
+    width: 38px;
+    box-shadow: 0px 13px 18px 0px #11132314;
+
+
 }
+
+/* .margin-l {
+    margin-left: -20px;
+} */
 
 
 
